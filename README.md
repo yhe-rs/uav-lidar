@@ -15,7 +15,7 @@ Utilizing a hybrid approach, this module focuses on transforming raw `.las` / `.
 
 #### 2. Advanced Feature Engineering
 The workflow extracts high-dimensional descriptors of forest structure to serve as model predictors:
-* **Structural Metrics ($z$):** Vertical distribution statistics, including mean height, 95th percentile ($P_{95}$), and skewness of the point return distribution.
+* **Structural Metrics ($z$):** Vertical distribution statistics, for instance mean height, 95th percentile ($P_{95}$), and skewness of the point return distribution.
 * **Radiometric Intensity ($i$):** Intensity-based metrics to differentiate between species types and assess moisture content or canopy health.
 * **Voxel-based Analysis:** Optional 3D voxelization to quantify sub-canopy density and vertical complexity.
 
@@ -29,12 +29,12 @@ Integrating structural geometry with gradient-boosted decision trees to mitigate
 
 ### 🛠️ Technical Implementation
 * **Languages:** `R` (primarily using `lidR` and `terra`) and `Python` (using `XGBoost`, `PyTorch`, and `GDAL`).
-* **Key Algorithms:** Watershed Segmentation, Voronoi Tessellation, and Extreme Gradient Boosting.
+* **Key Algorithms:** Watershed Segmentation and Extreme Gradient Boosting.
 * **Scalability:** Optimized for High-Performance Computing (HPC) environments using parallel processing for large-scale LiDAR tiles.
 
 ---
 
 ### 📝 Summary
-The workflow transforms raw multi-return LiDAR data into structural features, segments individual trees via statistical spatial testing, and employs a tuned XGBoost model to interpret and map the factors driving forest biomass.
+The workflow transforms raw multi-return LiDAR data (DJI L1/L2) into structural features, segments individual trees via statistical spatial testing, and employs a tuned XGBoost model to interpret and map the factors driving forest biomass.
 
 <img width="1024" height="1536" alt="uav-lidar-AGB" src="https://github.com/user-attachments/assets/43439436-3c52-4251-a054-e0fdda7622d5" />
