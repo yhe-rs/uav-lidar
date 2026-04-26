@@ -23,7 +23,7 @@ The workflow extracts high-dimensional descriptors of forest structure to serve 
 Integrating structural geometry with gradient-boosted decision trees to mitigate common saturation issues:
 * **XGBoost Optimization:** Implementation of an **XGBoost** regressor tuned via Bayesian optimization to handle non-linear relationships between LiDAR metrics and field-measured biomass.
 * **Multiscale Integration:** Capability to map AGB at both the individual tree level and the plot/landscape level (e.g., 10m or 30m resolution).
-* **Explainable AI (XAI):** Integration of **SHAP analysis** to quantify the influence of specific height percentiles versus return intensity on the final biomass estimate.
+* **Explainable ML:** Integration of **SHAP analysis** to quantify the influence of specific height percentiles versus return intensity on the final biomass estimate.
 
 ---
 
