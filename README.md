@@ -37,4 +37,5 @@ Integrating structural geometry with gradient-boosted decision trees to mitigate
 ### 📝 Summary
 The workflow transforms raw multi-return LiDAR data (DJI L1/L2) into structural features, segments individual trees via statistical spatial testing, and employs a tuned XGBoost model to interpret and map the factors driving forest biomass.
 
-<img width="1024" height="1536" alt="uav-lidar-AGB" src="https://github.com/user-attachments/assets/43439436-3c52-4251-a054-e0fdda7622d5" />
+<img width="1024" height="1536" alt="uav-lidar-agb" src="https://github.com/user-attachments/assets/b7c4ce3f-e09b-48df-bf16-77c441325e80" />
+
